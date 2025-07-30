@@ -4,7 +4,7 @@ const Macarrao = () => {
   return (
     <div
       style={{
-        maxWidth: 700,
+        maxWidth: 300,
         margin: "3rem auto",
         padding: "1rem",
         textAlign: "center",
@@ -21,7 +21,7 @@ const Macarrao = () => {
       <img
         src={Comida}
         alt="Macarrão"
-        width={550}
+        width={250}
         style={{
           borderRadius: 12,
           boxShadow: "0 5px 15px rgba(255, 193, 7, 0.3)",
