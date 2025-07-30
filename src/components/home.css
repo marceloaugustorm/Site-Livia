@@ -1,0 +1,68 @@
+body {
+  background-color: #fefefe;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+
+.botao-link {
+  display: inline-block;
+  margin: 0.5rem;
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+  border-radius: 12px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  color: white;
+  background-color: #d63384; /* tom rosado */
+  border: none;
+}
+
+.botao-link:hover {
+  background-color: #c71f6c;
+  transform: scale(1.05);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+
+img.rounded-4 {
+  border-radius: 16px;
+}
+
+h1 {
+  color: #d63384; /* tom rosado afetuoso */
+}
+
+.lead {
+  font-size: 1.2rem;
+  color: #555;
+}
+
+.btn-lg {
+  min-width: 220px;
+  transition: all 0.3s ease;
+}
+
+.btn-lg:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 2rem;
+}
+
+@media (max-width: 576px) {
+  .btn-lg {
+    min-width: 100%;
+  }
+}
+
+
+
+
